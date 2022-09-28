@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p 3001"
+    "start": "NODE_ENV=production next start -p 3001"
   },
   "dependencies": {
     "date-fns": "^2.29.3",
